@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="home.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="images/melody.jpg" alt="logo">
+            </div>
+            <a href="#">Home</a>
+            <a href="https://www.jiosaavn.com/shows/kahaaniya/1/SWXbXhBWwtA_">Podcast</a>
+            <a href="https://play.google.com/store/apps">Download app❗</a>
+            <a href="#">Sign in</a>
+            
+        </div>
+
+        <div id='player' class="player">
+            <div class="audio-container" id="audio-container">
+                <div class="audio-info">
+                    <h4 id="title">Melody</h4>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+                <audio src="music/BAROOD_WARGI.mp3" id="audio"></audio>
+                <div class="img-container">
+                    <img src="images/maxresdefault-2-19.jpg" alt="music-cover" id="cover">
+                </div>
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+        
+                </div>
+        
+        
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="content">
+            
+            <div class="recently">
+
+                <h1>Recently Played</h1><br><br>
+                <div class="recently cont">
+          
+                    <a onclick="playthis(0);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/BAROOD_WARGI.jpg">
+                    </a>
+                    <a onclick="playthis(1);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/NAAGNI.jpg">
+                    </a>
+                    <a onclick="playthis(2);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/Ek_Raat.jpg">
+                    </a>
+                    <a onclick="playthis(3);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/Tu_Aake_Dekhle.jpg">
+                    </a>
+                    
+                    <a onclick="playthis(4);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/jingle_Bell.jpg">
+                    </a><br><br>
+
+                   
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="recently">
+
+                <h1>New Releases</h1><br><br>
+                <div class="recently cont">
+          
+                    <a onclick="playthis(5);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(6);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(7);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(8);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    
+                    <a onclick="playthis(9);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a><br><br>
+
+                   
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="recently">
+
+                <h1>International Top Hits</h1><br><br>
+                <div class="recently cont">
+          
+                    <a onclick="playthis(5);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(6);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(7);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    <a onclick="playthis(8);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a>
+                    
+                    <a onclick="playthis(9);" ondblclick="pauseSong()" class="song" >
+                        <img src="images/youtubeimg.png">
+                    </a><br><br>
+
+                   
+
+
+                </div>
+
+            </div>
+           
+
+
+
+        </div>
+
+
+
+
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
