@@ -268,7 +268,7 @@ padding: 12px;
     left: 0;
     padding: 0;
     margin-left: 0;
-    top: 549px;
+    /* top: 549px; */
   }
   .audio-info{
     margin: 12px 0;
@@ -286,6 +286,7 @@ padding: 12px;
 
   
 }
+
 
 
 @media screen and (max-width:700px) {
