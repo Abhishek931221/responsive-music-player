@@ -114,18 +114,14 @@ padding: 12px;
 
 
 .player {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  
-    margin-left:25% ;
-   border-style: groove;
+   
     justify-content: center;
     box-sizing: border-box;
     height: 79px;
-    width: 50%;
+    width: 100%;
     position: fixed;
     display: flex;
-    top: 639px;
+    top: 633px;
    background-image: url(back.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -143,7 +139,7 @@ padding: 12px;
 .audio-container{
   
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgb(118, 125, 131);
+ 
   display: flex;
   padding: 10px 190px;
   position: relative;
@@ -159,11 +155,11 @@ padding: 12px;
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  height: 110px;
+  height: 100px;
   width: inherit;
   position: absolute;
   bottom: 0;
-  left: -150px;
+  
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
   
@@ -190,7 +186,7 @@ padding: 12px;
   z-index: 1;
 }
 
-.action-btn {
+.navigation .action-btn {
   
   background-color: #000;
   border: 0;
@@ -202,7 +198,7 @@ padding: 12px;
 }
 
 
-.action-btn.action-btn-big {
+.navigation .action-btn.action-btn-big {
   color: #fcb51b;
   font-size: 30px;
 }
@@ -212,35 +208,30 @@ padding: 12px;
 }
 
 .audio-info {
-  background-color: rgba(161, 76, 226, 0.392);
+  background-color: rgba(174, 9, 228, 0.849);
   color: white;
   border-radius: 15px 15px 0 0;
   position: absolute;
-  top: 0;
-  left: 20px;
-  width: calc(100% - 170px);
-  padding: 10px 10px 10px 150px;
-  opacity: 0;
-  transform: translateY(0%);
-  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-  z-index: 0;
+  left: 0;
+ justify-content: center;
+  width: 100%;
+ 
+ 
 }
 
-.audio-container.play .audio-info {
-  opacity: 1;
-  transform: translateY(-100%);
-}
 
 .audio-info h4 {
-  margin: 0;
+  margin: 1px;
+  color: #fff;
+  
 }
 
 .progress-container {
   background: #fff;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px 0;
-  height: 4px;
+  margin: 25px 0px;
+  height: 5px;
   width: 100%;
 }
 
@@ -250,6 +241,77 @@ padding: 12px;
   height: 100%;
   width: 50%;
   transition: width 0.1s linear;
+}
+/*--------------------------------responsive css-------------------------*/
+
+@media screen and (max-width:700px) {
+  .navbar a.icon{
+    display: block;
+   
+   float: right;
+   
+  }
+  
+  .logo img{
+    height: 85px;
+    width: 95px;
+    
+    
+  }
+  
+  
+  .navbar a {
+    display: none;
+  }
+  .player{
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin-left: 0;
+    top: 549px;
+  }
+  .audio-info{
+    margin: 12px 0;
+
+    position:fixed;
+  
+ justify-content: center;
+  width: 100%;
+    
+  }
+  
+
+
+
+
+  
+}
+
+
+@media screen and (max-width:700px) {
+    
+
+    
+  .navbar.responsive{
+    padding: 22px;
+      
+  }
+  .navbar.responsive .icon{
+    margin: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 20px;
+      
+  }
+  .navbar.responsive a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 73px;
+    font-size: 20px;
+  }
+ 
 }
 
 
