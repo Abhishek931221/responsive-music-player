@@ -63,8 +63,8 @@ padding: 12px;
 
 .content{
    
-    padding: 128px 16px;
-    margin: 0px;
+    padding: 128px 84px;
+    margin: 10px;
     display: inline-block;
    
 }
@@ -89,11 +89,11 @@ padding: 12px;
 .recently img{
   cursor: pointer;
  border-radius: 10px;
- margin: 10px;
+ margin: 15px;
   
   padding: 0px;
-    width:  270px;
-    height: 220px;
+    width:  180px;
+    height: 180px;
     object-fit: fill;
 }
 .recently img:hover{
