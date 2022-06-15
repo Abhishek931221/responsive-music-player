@@ -6,6 +6,7 @@ const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 
+
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
 const progressContainer = document.getElementById('progress-container');
@@ -13,7 +14,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['BAROOD_WARGI','NAAGNI','Ek_Raat','Tu_Aake_Dekhle','jingle_Bell','No Doubt - Yung Logos','Play Dead - NEFFEX','Take Me Back - NEFFEX','Winning - NEFFEX','Go! - NEFFEX'];
+const songs = ['BAROOD_WARGI','NAAGNI','Ek_Raat','Tu_Aake_Dekhle','jingle_Bell','Bhool_Bhulaiyaa','Baithe_Baithe','Dhokha_song','Naacho_Naacho','Shaka_Laka_Boom_Boom','Meri_Zindagi_Hai_Tu','Bhool_Bhulaiyaa-2'];
 
 
 
