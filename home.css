@@ -5,7 +5,7 @@
 .container{
    background-color: black;
     height: 100%;
-    width: fit-content;
+    
     
     
   
@@ -246,6 +246,9 @@ padding: 12px;
 /*--------------------------------responsive css-------------------------*/
 
 @media screen and (max-width:700px) {
+  .container{
+    width: fit-content;
+  }
   .navbar a.icon{
     display: block;
    
