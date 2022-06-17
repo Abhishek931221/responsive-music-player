@@ -300,7 +300,13 @@ padding: 12px;
     color: transparent;
     
   }
-
+  .img-container img {
+    height: 80px;
+    width: 80px;
+    bottom: 0px;
+    left: 20px;
+    
+}
 
 
 
