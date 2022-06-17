@@ -249,6 +249,9 @@ padding: 12px;
   .container{
     width: fit-content;
   }
+  .content{
+    padding: 132px 14px;
+  }
   .navbar a.icon{
     display: block;
    
@@ -283,7 +286,9 @@ padding: 12px;
   width: 100%;
     
   }
-  
+  .recently img{
+    width: 168px;
+  }
 
 
 
