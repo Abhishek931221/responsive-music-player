@@ -276,7 +276,7 @@ padding: 12px;
     left: 0;
     padding: 0;
     margin-left: 0;
-     top: 500px;
+     top: 530px;
   }
   .audio-info{
     margin: 12px 0;
@@ -292,7 +292,7 @@ height: 7%;
     max-height: 100px;
   }
   .content{
-    padding: 108px 35px;
+    padding: 75px 35px;
   }
   .audio-info h4 {
     color: transparent;
