@@ -250,7 +250,7 @@ padding: 12px;
     width: fit-content;
   }
   .navbar{
-    padding: 15px 0px;
+    padding: 5px 0px;
   }
   .navbar a.icon{
     display: block;
@@ -260,8 +260,8 @@ padding: 12px;
   }
   
   .logo img{
-    height: 81px;
-    width: 90px;
+    height: 70px;
+    width: 76px;
     
     
   }
@@ -287,8 +287,8 @@ padding: 12px;
     
   }
   .recently img{
-    max-width: 149px;
-    max-height: 149px;
+    max-width: 140px;
+    max-height: 140px;
   }
   .content{
     padding: 108px 0px;
