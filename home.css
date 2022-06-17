@@ -275,7 +275,7 @@ padding: 12px;
     left: 0;
     padding: 0;
     margin-left: 0;
-    /* top: 549px; */
+     top: 500px;
   }
   .audio-info{
     margin: 12px 0;
@@ -291,7 +291,11 @@ padding: 12px;
     max-height: 100px;
   }
   .content{
-    padding: 108px 0px;
+    padding: 108px 35px;
+  }
+  .audio-info h4 {
+    color: transparent;
+    
   }
 
 
