@@ -279,8 +279,7 @@ padding: 12px;
      top: 530px;
   }
   .audio-info{
-    margin: 12px 0;
-height: 7%;
+    height: 8%;
     position:fixed;
   
  justify-content: center;
@@ -298,6 +297,7 @@ height: 7%;
     color: transparent;
     
   }
+
 
 
 
