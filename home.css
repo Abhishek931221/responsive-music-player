@@ -4,7 +4,7 @@
 }
 .container{
    background-color: black;
-    height: 100vh;
+    height: 100%;
     
     
     
@@ -248,6 +248,7 @@ padding: 12px;
 @media screen and (max-width:700px) {
   .container{
     width: fit-content;
+    height: 100%;
   }
   .content{
     padding: 132px 1px;
