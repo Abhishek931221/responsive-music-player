@@ -4,7 +4,7 @@
 }
 .container{
    background-color: black;
-    height: 100vh;
+    height: 100%;
     
     
     
@@ -289,8 +289,6 @@ padding: 12px;
   .recently img{
     width: 138px;
     height: 138px;
-    margin: 10px;
-    padding: 0;
   }
 
 
