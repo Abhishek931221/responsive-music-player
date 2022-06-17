@@ -271,6 +271,7 @@ padding: 12px;
     display: none;
   }
   .player{
+    height: 5%;
     width: 100%;
     left: 0;
     padding: 0;
@@ -279,7 +280,7 @@ padding: 12px;
   }
   .audio-info{
     margin: 12px 0;
-
+height: 7%;
     position:fixed;
   
  justify-content: center;
@@ -315,18 +316,18 @@ padding: 12px;
       
   }
   .navbar.responsive .icon{
-    margin: 20px;
+    margin: 8px;
     position: fixed;
     right: 0;
     top: 0;
-    padding: 20px;
+    padding: 12px;
       
   }
   .navbar.responsive a{
     display: block;
     text-align: center;
-    padding: 20px;
-    margin: 73px;
+    padding: 14px;
+    margin: 60px;
     font-size: 20px;
   }
  
